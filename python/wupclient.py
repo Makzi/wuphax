@@ -26,7 +26,7 @@ def get_string(buffer, offset):
 class wupclient:
     s=None
     fsa_handle=None
-    def __init__(self, ip='192.168.0.197', port=1337):
+    def __init__(self, ip='192.168.1.36', port=1337):
         self.s=socket.socket()
         try:
             self.s.connect((ip, port))
